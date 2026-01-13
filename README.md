@@ -60,17 +60,17 @@ AI-Resume-Builder/
 
 ## ⚙️ Environment Variables
 ### Backend (`server/.env`)
-MONGO_URI=
+JWT_SECRET = 
 
-JWT_SECRET=
-
-OPENAI_API_KEY=
-
-IMAGEKIT_PUBLIC_KEY=
+MONGODB_URI=
 
 IMAGEKIT_PRIVATE_KEY=
 
-IMAGEKIT_URL_ENDPOINT=
+OPENAI_API_KEY=
+
+OPENAI_BASE_URL=
+
+OPENAI_MODEL = 
 
 ### Frontend (`client/.env`)
 VITE_API_BASE_URL=
