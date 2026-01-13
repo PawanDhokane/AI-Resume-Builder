@@ -49,18 +49,27 @@ Built with **React, Node.js, Express, MongoDB**, and **AI integrations**, this p
 ## 📁 Project Structure
 
 AI-Resume-Builder/
+
 ├── client/ # React frontend
+
 ├── server/ # Express backend
+
 ├── README.md
+
 └── .gitignore
 
 ## ⚙️ Environment Variables
 ### Backend (`server/.env`)
 MONGO_URI=
+
 JWT_SECRET=
+
 OPENAI_API_KEY=
+
 IMAGEKIT_PUBLIC_KEY=
+
 IMAGEKIT_PRIVATE_KEY=
+
 IMAGEKIT_URL_ENDPOINT=
 
 ### Frontend (`client/.env`)
