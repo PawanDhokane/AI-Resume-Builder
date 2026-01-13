@@ -29,13 +29,16 @@ const Preview = () => {
     loadResume();
   }, [resumeId]);
 
+  console.log("PREVIEW RESUME DATA:", resumeData);
+
+
   return resumeData ? (
     <div className="bg-slate-100">
       <div className="max-w-3xl mx-auto py-10">
         <ResumePreview
           data={resumeData}
           template={resumeData.template}
-          accentColor={resumeData.accentColor}
+          accentColor={resumeData.accent_Color}
           classes="py-4 bg-white"
         />
       </div>
