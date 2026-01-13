@@ -48,3 +48,36 @@ Built with **React, Node.js, Express, MongoDB**, and **AI integrations**, this p
 
 ## 📁 Project Structure
 
+AI-Resume-Builder/
+├── client/ # React frontend
+├── server/ # Express backend
+├── README.md
+└── .gitignore
+
+## ⚙️ Environment Variables
+### Backend (`server/.env`)
+MONGO_URI=
+JWT_SECRET=
+OPENAI_API_KEY=
+IMAGEKIT_PUBLIC_KEY=
+IMAGEKIT_PRIVATE_KEY=
+IMAGEKIT_URL_ENDPOINT=
+
+### Frontend (`client/.env`)
+VITE_API_BASE_URL=
+
+## 🧪 Running Locally
+### 1️⃣ Clone the repository
+git clone https://github.com/PawanDhokane/AI-Resume-Builder.git
+cd AI-Resume-Builder
+
+### 2️⃣ Backend setup
+cd server
+npm install
+npm run server
+
+### 3️⃣ Frontend setup
+cd client
+npm install
+npm run dev
+
