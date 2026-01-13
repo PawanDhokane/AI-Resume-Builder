@@ -82,11 +82,16 @@ cd AI-Resume-Builder
 
 ### 2️⃣ Backend setup
 cd server
+
 npm install
+
 npm run server
 
 ### 3️⃣ Frontend setup
+
 cd client
+
 npm install
+
 npm run dev
 
