@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
-import Dashboard from "./Pages/dashboard";
+import Dashboard from "./Pages/Dashboard";
 import ResumeBuilder from "./Pages/ResumeBuilder";
 import Preview from "./Pages/Preview";
 import Login from "./Pages/Login";
